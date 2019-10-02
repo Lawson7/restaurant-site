@@ -1,0 +1,27 @@
+
+#header {
+    position: relative;
+    text-align: center;
+  }
+
+.header-img {
+  width: 100%;
+}
+
+.header-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: black;
+    font-size: 56px;
+
+    background-color: bisque;
+    opacity: 0.77;
+    padding: 5px 7px;
+  }
+
+.header-text:hover {
+    opacity: 0.85;
+}
