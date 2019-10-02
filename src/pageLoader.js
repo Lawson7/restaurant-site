@@ -19,18 +19,24 @@ const pageLoader = () => {
     headerDiv.appendChild(titleText);
     contentContainer.appendChild(headerDiv);
 
+    //tab switcher
+    const tabDiv = document.createElement('div');
+    contentContainer.appendChild(tabDiv);
+    tabDiv.id = 'tabSwitcher';
+
     //content creation
     const contentDiv = document.createElement('div');
 
-    const contentTitle = document.createElement('h2');
-    contentTitle.textContent = 'About us'
+    //const contentTitle = document.createElement('h2');
+    //contentTitle.textContent = 'About us'
 
-    const contentBody = document.createElement('p');
-    contentBody.textContent = 'Lorem Ipsum.'
+    //const contentBody = document.createElement('p');
+    //contentBody.textContent = 'Lorem Ipsum.'
 
-    contentDiv.appendChild(contentTitle);
-    contentDiv.appendChild(contentBody);
+    //contentDiv.appendChild(contentTitle);
+    //contentDiv.appendChild(contentBody);
     contentContainer.appendChild(contentDiv);
+    contentDiv.id = "contentDiv"
 };
 
 export default pageLoader;
