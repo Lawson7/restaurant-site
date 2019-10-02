@@ -25,3 +25,52 @@
 .header-text:hover {
     opacity: 0.85;
 }
+
+#tabSwitcher {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab-links {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+
+  width: 33.3%;
+
+  font-size: 28px;
+
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #d7d1c9;
+}
+
+.tab-links:hover {
+  border-bottom-color: #979797;
+}
+
+.active {
+  border-bottom-color: #ff4d00;
+}
+
+.active:hover {
+  border-bottom-color: #ff4d00;
+}
+
+
+
+.childContentDiv {
+ animation: fadeEffect 1s;
+ padding: 6px 12px;
+ border: 1px solid #ccc;
+ border-top: none;
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

@@ -4,6 +4,7 @@ const contact = () => {
     const contentDiv = document.getElementById('contentDiv');
 
     const contactDiv = document.createElement('div');
+    contactDiv.classList.add('childContentDiv');
 
     const contactContent = document.createElement('p');
     contactContent.textContent = 'contact content here!';

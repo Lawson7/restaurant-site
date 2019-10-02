@@ -27,14 +27,6 @@ const pageLoader = () => {
     //content creation
     const contentDiv = document.createElement('div');
 
-    //const contentTitle = document.createElement('h2');
-    //contentTitle.textContent = 'About us'
-
-    //const contentBody = document.createElement('p');
-    //contentBody.textContent = 'Lorem Ipsum.'
-
-    //contentDiv.appendChild(contentTitle);
-    //contentDiv.appendChild(contentBody);
     contentContainer.appendChild(contentDiv);
     contentDiv.id = "contentDiv"
 };
