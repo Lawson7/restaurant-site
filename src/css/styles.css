@@ -1,7 +1,13 @@
 
-#header {
+#headerDiv {
     position: relative;
     text-align: center;
+    height: 650px;
+    background:url('./../imgs/counter.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
 .header-img {

@@ -39,7 +39,7 @@ menuButton.classList.add('tab-links');
 menuButton.textContent = 'menu';
 tabSwitcher.appendChild(menuButton);
 
-menuButton.addEventListener('click', () => {
+menuButton.addEventListener('click', (event) => {
     contentDiv.innerHTML= '';
     menu();
 
@@ -57,7 +57,7 @@ contactButton.classList.add('tab-links');
 contactButton.textContent = 'contact';
 tabSwitcher.appendChild(contactButton);
 
-contactButton.addEventListener('click', () => {
+contactButton.addEventListener('click', (event) => {
     contentDiv.innerHTML= '';
     contact();
 
